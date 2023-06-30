@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ihre Website</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Eigenes CSS -->
+        <link rel="stylesheet" href="/css/style.css">
+
+        <link rel="stylesheet" href="/lib/montserrat/webfonts/Montserrat.css">
+    </head>
+    <body class="bgc">
+        <div id="navbar"></div>
+
+        <div class="container-xxl">
+
+            <h1 class="headline-big row-12 text-center color-blue col-12">Kontakt</h1>
+            <div class="row justify-content-center">
+                <div class="col-3"></div>
+                <div class="col-lg-6 text-center color-orange">
+                    <p class="mb-0">Adresse:</p>
+                    <p class="mb-3 color-blue">Anja Christian-Ebert, Obala Sv. Petra 51, Nečujam, Šolta</p>
+
+                    <p class="mb-0">Telefon/ Whatsapp:</p>
+                    <p class="color-blue mb-0">0049 151 226 398 53</p>
+                    <div class="mb-3">
+                        <a href="https://api.whatsapp.com/send?phone=4915122639853" target="_blank">
+                            <i class="bi bi-whatsapp" style="color: green; font-size: 24px"></i>
+                        </a>
+                    </div>
+                    <p class="mb-0">E-Mail:</p>
+                    <p class="color-blue mb-0">anjalebensfreude@gmx.de</p>
+                    <div>
+                        <a href="mailto:anjalebensfreude@gmx.de" target="_blank">
+                            <i class="bi bi-envelope" style="color: black; font-size: 24px"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-lg-6 mt-5">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label class="color-blue" for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Ihr Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="color-blue" for="email">E-Mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ihre E-Mail-Adresse" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="color-blue" for="message">Wie kann ich Dich unterstützen und begleiten?</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-orange my-3">Nachricht senden</button>
+                    </form>
+                </div>                
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <h1 class="headline-big row-12 text-center color-blue col-12">Karte</h1>
+                <div class="col-lg-3"></div>
+                <iframe class="col-lg-6 col-12" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d539.3096527274096!2d16.32731194969386!3d43.38951529027255!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sde!2sch!4v1688028422147!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-lg-3"></div>
+            </div>
+
+        </div>      
+
+        <div id="footer"></div>
+
+        <!-- popper -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+        <!-- Javascript -->
+        <script type="module" src="/js/script.js"></script>
+    </body>
+</html>

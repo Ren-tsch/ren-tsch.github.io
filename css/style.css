@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container-xxl {
+    overflow-x: hidden;
+}
+
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+.color-orange {
+    color: #ED6A4E;
+}
+
+.color-blue {
+    color: #014153
+}
+
+.color-white {
+    color: #ffff;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bgc-nav {
+    background: rgb(248, 249, 250);
+}
+
+.txt-shdw-nav {
+    text-shadow: 0px 0px 0px;
+}
+
+.txt-shdw-nav:hover {
+    color: #ED6A4E;
+    text-decoration: underline;
+}
+
+.bgc {
+    background-color: rgb(239,222,202)
+}
+
+.section-title {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../pictures/compressedForMobile/title2_contrast-min.png");
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.section-benefit {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../pictures/compressedForMobile/benefit2-min.png");
+    min-height: 450px;
+    margin-right: -12px;
+}
+
+.section-retreat {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../pictures/pics1/image00045.jpeg");
+    min-height: 550px;  
+    max-height: 550px;
+}
+
+.section-me {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../pictures/compressedForMobile/Profilbild2-min.png");
+    min-height: 550px;  
+    max-height: 550px;
+}
+
+.section-yoga {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    background-image: url("../pictures/compressedForMobile/benefit-min.png");
+    min-height: 320px;
+}
+
+.section-massage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../pictures/compressedForMobile/image00018-min.jpeg");
+    min-height: 320px;
+}
+
+.section-oel {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    background-image: url("../pictures/compressedForMobile/oel3-min.png");
+    min-height: 320px;
+}
+
+.section-spirituell {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../pictures/compressedForMobile/spirituell-min.png");
+    min-height: 350px;
+}
+
+.section-uebermich {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../pictures/pics2/me2.png");
+    min-height: 550px;
+}
+
+.section_zitat {
+    background-color: #014153!important;
+    color: #ED6A4E;
+    text-align: center;
+    padding: 5rem 2rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.section_zitat__quote {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.section_zitat__quote::before {
+    content: "”";
+}
+
+.section_zitat__quote::after {
+    content: "”";
+}
+
+.section_holiday {
+    background-color: #014153!important;
+    color: #ED6A4E;
+    text-align: center;
+    padding: 5rem 2rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.section_holiday__quote {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: white;
+    border: 0.125rem solid white;
+    backdrop-filter: blur(2rem);
+    padding: 0.5rem;
+    border-radius: 0.95rem;
+    font-weight: bold;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin: 1rem;
+}
+
+.btn-transparent:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 0.125rem solid white;
+    border-color: rgb(239,222,202);
+    text-decoration: underline;
+}
+
+.btn-orange {
+    display: inline-block;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.95rem;
+    border: 0.125rem solid white;
+    background-color: #ED6A4E;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.btn-orange:hover {
+    text-decoration: underline;
+    background-color: #c95f47;
+}
+
+.txt-shdw {
+    text-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.85);
+}
+
+.headline-small {
+    margin: 0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.title-headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    font-weight: 700;
+    color: #ED6A4E;
+}
+
+.headline-big {
+    font-weight: 800;
+    margin:0;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.card-samesize {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card {
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    will-change: transform;
+    transition: transform 0.25s linear;
+}
+
+.card-sameheight {
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.0175);
+}
